@@ -1,5 +1,36 @@
 ----------------------------------------------------------------------
 
+How many players (2-8) ? 8
+
+Player 1's cards: 
+[CPU] Player 2's cards: [♥ K] [♦ 8] 
+[CPU] Player 3's cards: [♦ 3] [♣ 5] 
+[CPU] Player 4's cards: [♠ 9] [♣ 7] 
+[CPU] Player 5's cards: [♣ A] [♥ 5] 
+[CPU] Player 6's cards: [♣ K] [♠ Q] 
+[CPU] Player 7's cards: [♥ 3] [♦ 9] 
+[CPU] Player 8's cards: [♠ J] [♣ J] 
+
+Flop:  [♣ 3] [♠ K] [♠10] 
+Turn:  [♠ 3] 
+[CPU] Player 5 has folded.
+River: [♦ 4] 
+
+Player 1 has: One Pair [♣ 3] [♠ 3] 
+[CPU] Player 2 has: Two Pair [♠ K] [♥ K] [♣ 3] [♠ 3] 
+[CPU] Player 3 has: Three of a Kind [♣ 3] [♠ 3] [♦ 3] 
+[CPU] Player 4 has: One Pair [♣ 3] [♠ 3] 
+[CPU] Player 5 would've had: One Pair [♣ 3] [♠ 3] 
+[CPU] Player 6 has: Two Pair [♠ K] [♣ K] [♣ 3] [♠ 3] 
+[CPU] Player 7 has: Three of a Kind [♣ 3] [♠ 3] [♥ 3] 
+[CPU] Player 8 has: Two Pair [♠ J] [♣ J] [♣ 3] [♠ 3] 
+
+Winners: 
+[CPU] Player 7
+[CPU] Player 3
+
+----------------------------------------------------------------------
+
 How many players (2-8) ? 5
 
 Player 1's cards: 
