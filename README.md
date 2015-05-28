@@ -1,5 +1,4 @@
 # challenge-216-intermediate
-dailyprogrammer [2015-05-27] Challenge #216 [Intermediate] Texas Hold 'Em 2 of 3 - Winning Hand &amp; Know when to fold 'em
 
 [2015-05-27] Challenge #216 [Intermediate] Texas Hold 'Em 2 of 3 - Winning Hand & Know when to fold 'em
 
