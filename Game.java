@@ -43,7 +43,6 @@ public final class Game {
       numberOfPlayers = in.nextInt();
     }
     System.out.println("");
-//    numberOfPlayers = 5;
 
     /* Add human player. */
     addPlayer(Player.Type.HUMAN, "");
@@ -58,7 +57,7 @@ public final class Game {
     deck.shuffle();
 
     /* Deal cards to players and display. */
-    for (int i = 1; i < players.size(); i++) {
+    for (int i = 0; i < players.size(); i++) {
       dealCard(i);
       dealCard(i);
     }
