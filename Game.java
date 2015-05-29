@@ -214,7 +214,7 @@ public final class Game {
             highestRank = tmpRank;
           }
           else if (tmpRank.getCards().get(0).getValue() == highestRank.getCards().get(0).getValue()) {
-            if (tmpRank.getCards().size() >= 4 && highestRank.getCards().size() >= 3) {
+            if (tmpRank.getCards().size() >= 4 && highestRank.getCards().size() >= 4) {
               if (tmpRank.getCards().get(3).getValue() > highestRank.getCards().get(3).getValue()) {
                 listOfWinners.clear();
                 listOfWinners.add(i);
