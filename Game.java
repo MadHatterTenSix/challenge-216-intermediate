@@ -112,7 +112,7 @@ public final class Game {
     /* Display winners. */
     System.out.println("\nWinners: ");
     listOfWinners = getWinners();
-    for (int i = listOfWinners.size()-1; i >= 0 ; i--) {
+    for (int i = 0; i < listOfWinners.size(); i++) {
       System.out.println(players.get(listOfWinners.get(i)).getName());
     }
 
@@ -207,14 +207,27 @@ public final class Game {
         }
         /* Tie? */
         else if (tmpDegree == lowestDegree) {
-          if (tmpRank.getSumOfCards() > highestRank.getSumOfCards()) {
+          if (tmpRank.getCards().get(0).getValue() > highestRank.getCards().get(0).getValue()) {
             listOfWinners.clear();
             listOfWinners.add(i);
             lowestDegree = tmpDegree;
             highestRank = tmpRank;
           }
-          else if (tmpRank.getSumOfCards() == highestRank.getSumOfCards()) {
-            listOfWinners.add(i);
+          else if (tmpRank.getCards().get(0).getValue() == highestRank.getCards().get(0).getValue()) {
+            if (tmpRank.getCards().size() >= 4 && highestRank.getCards().size() >= 3) {
+              if (tmpRank.getCards().get(3).getValue() > highestRank.getCards().get(3).getValue()) {
+                listOfWinners.clear();
+                listOfWinners.add(i);
+                lowestDegree = tmpDegree;
+                highestRank = tmpRank;
+              }
+              else if (tmpRank.getCards().get(3).getValue() == highestRank.getCards().get(3).getValue()) {
+                listOfWinners.add(i);
+              }
+            }
+            else {
+              listOfWinners.add(i);
+            }
           }
         }
       }
